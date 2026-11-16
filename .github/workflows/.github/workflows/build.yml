@@ -16,8 +16,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: maven
-
+          
       - name: Siapkan source (otomatis unzip kalau kamu upload zip)
         run: |
           if [ -f pom.xml ]; then
